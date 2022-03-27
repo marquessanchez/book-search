@@ -27,7 +27,13 @@ const bookSchema = new Schema({
     required: true,
   },
   //TODO: add the pageCount property. It should be a Number. 
+  pageCount: {
+    type: Number,
+  },
   //TODO: add the publishedDate property. It should be a String.  
+  publishedDate: {
+    type: String,
+  }
 });
 
 module.exports = bookSchema;
